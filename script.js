@@ -8,7 +8,7 @@ while (true) {
 
   console.log(`Resultado: ${result}`);
 
-  let enteredValue = prompt(
+  let enteredValue = console.log(
     `Quanto é ${number1} + ${number2}? \n - - - - - - - - - - - - - - \n PONTOS: ${score} \n VIDAS: ${life} \n  - - - - - - - - - - - - - - `
   );
 
@@ -16,11 +16,11 @@ while (true) {
     score += 5;
   } else {
     life -= 1;
-    alert(
+    console.log(
       `- - - - - - - - - - - - - - \n PONTOS: ${score} \n VIDAS: ${life} \n  - - - - - - - - - - - - - - `
     );
     if (life == 0) {
-      alert(
+      console.log(
         `GAMER OVER! \n - - - - - - - - - - - - - - \n PONTOS: ${score} \n  - - - - - - - - - - - - - - `
       );
       break;
