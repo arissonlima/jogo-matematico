@@ -46,6 +46,7 @@ body{
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 360px;
   max-width: 600px;
   height: 440px;
   background: var(--white);
@@ -125,4 +126,17 @@ body{
   border: none;
   cursor: pointer;
   margin-bottom: 16px;
+}
+
+@media(max-width: 400px){
+  .display{
+    width: 260px;
+  }
+  .reply input{
+    width: 260px;
+  }
+
+  .reply input{
+    width: 260px;
+  }
 }
